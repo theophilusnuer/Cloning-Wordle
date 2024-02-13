@@ -1,0 +1,55 @@
+/* style.css */
+h1{
+    text-align: center;
+    border-bottom:1px solid rgb(194, 192, 192) ;
+    /* line-height: 2; */
+    padding-bottom: 7px;
+}
+
+.first-rows{
+    border: 2px solid rgb(194, 192, 192);
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: bold;
+    caret-color: transparent;
+}
+
+/* editing a hover */
+.first-rows:focus{
+    outline: none;
+    border-color: black;
+}
+
+#container {
+display: flex;
+margin: 0 auto;
+justify-content: space-around ;
+}
+
+/* header{
+display: flex;
+justify-content: space-evenly;
+}
+
+button{
+    border-radius: 50%;
+} */
+
+
+
+
+/*USING A GRID IN A CONTAINER
+1. create a div or input with the number of box(eg:30)
+
+style it in a container id as follows
+display:grid;
+width: fit container;
+grid-template-columns: repeat(5, 1fr);
+row-gap: 10px;
+column-gap: 10px;
+*/
